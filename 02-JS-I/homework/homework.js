@@ -25,22 +25,29 @@ const nuevoModulo = 21 % 5 === 1;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
+
 function devolverString(str) {
-  
 
 
-
-  return "str"
+  return ("str")
 }
 
 function suma(x, y) {
 
-return (x+y)
+
+
+
+ return (x+y)
 
 }
 
 function resta(x, y) {
-return (y-x);
+
+
+
+
+
+  return (y-x);
 }
 
 function multiplica(x, y) {
@@ -68,7 +75,7 @@ function tienenMismaLongitud(str1, str2) {
 }
 
 function menosQueNoventa(num) {
- if (num<90) {return true;}
+ if (num < 90) {return true;}
  else {return false;}
   
 }
@@ -82,14 +89,14 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return (x%y)
+  (x%y) return 
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num%2)
 }
 
 function esImpar(num) {
