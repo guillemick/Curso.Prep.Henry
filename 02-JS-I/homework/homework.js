@@ -26,68 +26,63 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  // "Return" la string provista: str
-  // Tu código:
   
+
+
+
+  return "str"
 }
 
 function suma(x, y) {
-  // "x" e "y" son números
-  // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  
+
+return (x+y)
+
 }
 
 function resta(x, y) {
-  // Resta "y" de "x" y devuelve el valor
-  // Tu código:
-  
+return (y-x);
 }
 
 function multiplica(x, y) {
-  // Multiplica "x" por "y" y devuelve el valor
-  // Tu código:
-  
+  return (x*y)
 }
 
 function divide(x, y) {
-  // Divide "x" entre "y" y devuelve el valor
-  // Tu código:
-  
+  return (x/y)
 }
 
 function sonIguales(x, y) {
-  // Devuelve "true" si "x" e "y" son iguales
-  // De lo contrario, devuelve "false"
-  // Tu código:
+  if (x==y){
+    return true
+  }
+   else {false
+  } 
   
 }
 
 function tienenMismaLongitud(str1, str2) {
-  // Devuelve "true" si las dos strings tienen la misma longitud
-  // De lo contrario, devuelve "false"
-  // Tu código:
+  if ( str1.length == str2.lenght)
+ { return true} 
+ else {return false }
   
 }
 
 function menosQueNoventa(num) {
-  // Devuelve "true" si el argumento de la función "num" es menor que noventa
-  // De lo contrario, devuelve "false"
-  // Tu código:
+ if (num<90) {return true;}
+ else {return false;}
   
 }
 
 function mayorQueCincuenta(num) {
-  // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
-  // De lo contrario, devuelve "false"
-  // Tu código:
+ if (num>50){return true} 
+ else {false} 
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  return (x%y)
 }
 
 function esPar(num) {
@@ -108,6 +103,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  Math.pow (num)
   
 }
 
@@ -203,7 +199,14 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
-  //Escribe tu código aquí
+  //
+  if(letra.length > 1){
+    return "Dato incorrecto"
+  }
+  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+    return "Es vocal"
+  }
+ else {return "Dato incorrecto"}
   
 }
 
